@@ -21,20 +21,20 @@ const displayUser = (userArray) => {
         let userImage = userArray[i].picture.medium
         let userDob =  userArray[i].dob.date
 
-        let li = document.createElement("li")
-        li.innerHTML = userName
-        userResults.append(li)
+        let li = document.createElement("li");
+        li.innerHTML = userName;
+        userResults.append(li);
 
         let img = document.createElement("img");
-        img.src = userImage
-        userResults.append(img)
+        img.src = userImage;
+        userResults.append(img);
+
+        let br = document.createElement("br");
+        userResults.append(br);
 
         let btn = document.createElement("button");
         btn.innerHTML = "More Info";
         userResults.appendChild(btn);
-    }
 
-    const moreInfo = () => {
-        
     }
 };
