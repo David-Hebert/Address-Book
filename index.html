@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <title>Address Book</title>
+</head>
+<body onload="user()">
+<div id="input">
+    <input id="numUsers" type="number" placeholder="How Many Users">
+    <button onclick="user()">Submit</button>
+</div>
+<div id="users">
+    <li style="list-style-type: none; text-align: center;" id="userResults"></li>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
